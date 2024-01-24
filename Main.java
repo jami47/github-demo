@@ -14,7 +14,7 @@ class Square implements Shape {
         System.out.println("Inside Square::draw() method.");
     }
 }
-/*
+
 class ShapeFactory {
     private static ShapeFactory ins = null;
     private ShapeFactory(){}
@@ -51,4 +51,4 @@ public class Main {
         Shape shape2 = shapeFactory.getShape("RECTANGLE");shape2.draw();
     }
 }
-*/
+
