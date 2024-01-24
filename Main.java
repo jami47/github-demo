@@ -1,7 +1,7 @@
 interface Shape {
     void draw();
 }
-/*
+
 class Rectangle implements Shape {
     @Override
     public void draw() {
@@ -14,6 +14,7 @@ class Square implements Shape {
         System.out.println("Inside Square::draw() method.");
     }
 }
+/*
 class ShapeFactory {
     private static ShapeFactory ins = null;
     private ShapeFactory(){}
